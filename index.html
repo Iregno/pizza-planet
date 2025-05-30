@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+   <nav class="bg-gray-600 text-white flex justify-between h-[40px] items-center">
+    <p class="ml-8"><span class="text-[#EA384C]">Pizza</span><span class="text-[#FEF7CD]">Planet</span></p>
+    <div class="space-x-4">
+        <a href="#home">Home</a>
+        <a href="#about" class="mx-4">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact" class="mx-4">Contact</a>
+    </div>
+   </nav>
+   <section class="image h-screen bg-cover bg-center flex flex-col justify-center items-center space-y-4 px-4">
+    <h1 class="text-red-900 text-5xl md:text-7xl font-bold"><span class="text-[#EA384C]">Pizza</span> <span class="text-[#FEF7CD]">Planet</span></h1>
+    <p class="text-white text-base">Out of this world Pizza delivered at your doorstep!</p>
+<div class="space-x-4">
+        <button class="btn bg-[#EA384C] px-6 py-2 rounded shadow-md">View our Menu</button>
+    <button class="btn bg-[#F97316] px-6 py-2 rounded shadow-md">Order Now</button>
+
+</div>
+   </section>
+   <section id="about" class="bg-white text-black py-12 px-4">
+    <h2 class="text-4xl font-bold text-center text-[#EA384C] mb-8">About Us</h2>
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:space-x-8 space-y-6 md:space-y-0">
+        <div>
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza Image" class="w-full rounded-md shadow-md">
+        </div>
+        <div>
+            <h3 class="text-2xl font-bold text-[#EA384C]">Our Story</h3>
+                <p class="text-base">Pizza Planet was founded in 2010 by two best friends who shared a passion for great pizza and space!Our mission is to serve the most delicous pizza in the galaxy while providing a fun expereience for the whole family.<br>All our ingredients are fresh and locally sourced.Our dough is made in-house daily,and our source is a secret family recipe passed down through generations,<br>Whether you're dining in our space-themed restaurant or ordering for delivery,we promise an out-of-this-world pizza expereience that will have you coming back for more!</p>
+     </div>
+    </div>
+   </section>
+   <section id="Menu" class="bg-gray-100 py-12 px-4">
+    <h2 class="text-4xl font-bold text-center text-[#EA384C] mb-8">Our Menu</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <div class="bg-white rounded-md shadow-md p-4 text-center">
+      <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFyZ2hlcml0YSUyMHBpenphfGVufDB8fDB8fHww" alt="Pepperoni Pizza" class="w-full h-40 object-cover rounded-md mb-4">
+      <h3 class="text-xl font-bold">Cosmic Margherita</h3>
+      <p class="text-gray-600 text-sm">Loaded with cheese and spicy pepperoni slices.</p>
+      <p class="text-[#EA384C] font-semibold mt-2">KES 1450</p>
+            <button class="mt-auto bg-[#F97316]  text-white px-4 py-2 rounded-md hover:bg-[#c62f3e] transition duration-300 mt-4">
+        Add to Order
+      </button>
+    </div>
+        <div class="bg-white rounded-md shadow-md p-4 text-center">
+      <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVwcGVyb25pJTIwcGl6emF8ZW58MHx8MHx8fDA%3D" alt="Veggie Delight" class="w-full h-40 object-cover rounded-md mb-4">
+      <h3 class="text-xl font-bold">Pepperoni Meteor</h3>
+      <p class="text-gray-600 text-sm">Topped with fresh veggies and a cheesy base.</p>
+      <p class="text-[#EA384C] font-semibold mt-2">KES 1699</p>
+            <button class="mt-auto bg-[#F97316]  text-white px-4 py-2 rounded-md hover:bg-[#c62f3e] transition duration-300 mt-4">
+        Add to Order
+      </button>
+    </div>
+        <div class="bg-white rounded-md shadow-md p-4 text-center">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmVnZ2llJTIwcGl6emF8ZW58MHx8MHx8fDA%3D" alt="BBQ Chicken" class="w-full h-40 object-cover rounded-md mb-4">
+      <h3 class="text-xl font-bold">Veggie Spacecraft</h3>
+      <p class="text-gray-600 text-sm">Grilled chicken with tangy BBQ sauce and onions.</p>
+      <p class="text-[#EA384C] font-semibold mt-2">KES 1599</p>
+            <button class="mt-auto bg-[#F97316]  text-white px-4 py-2 rounded-md hover:bg-[#c62f3e] transition duration-300 mt-4">
+        Add to Order
+      </button>
+    </div>
+        <div class="bg-white rounded-md shadow-md p-4 text-center">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmVnZ2llJTIwcGl6emF8ZW58MHx8MHx8fDA%3D" alt="BBQ Chicken" class="w-full h-40 object-cover rounded-md mb-4">
+      <h3 class="text-xl font-bold">BBQ Rocket</h3>
+      <p class="text-gray-600 text-sm">Grilled chicken with tangy BBQ sauce and onions.</p>
+      <p class="text-[#EA384C] font-semibold mt-2">KES 1799</p>
+            <button class="mt-auto bg-[#F97316]  text-white px-4 py-2 rounded-md hover:bg-[#c62f3e] transition duration-300 mt-4">
+        Add to Order
+      </button>
+    </div>
+        <div class="bg-white rounded-md shadow-md p-4 text-center">
+      <img src="https://images.unsplash.com/photo-1708782281091-35e23ab54a64?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA1fHxoYXdhaWlhbiUyMHBpenphfGVufDB8fDB8fHww" alt="BBQ Chicken" class="w-full h-40 object-cover rounded-md mb-4">
+      <h3 class="text-xl font-bold">Hawaiian Orbit</h3>
+      <p class="text-gray-600 text-sm">Grilled chicken with tangy BBQ sauce and onions.</p>
+      <p class="text-[#EA384C] font-semibold mt-2">KES 1689</p>
+            <button class="mt-auto bg-[#F97316]  text-white px-4 py-2 rounded-md hover:bg-[#c62f3e] transition duration-300 mt-4">
+        Add to Order
+      </button>
+    </div>
+        <div class="bg-white rounded-md shadow-md p-4 text-center">
+      <img src="https://images.unsplash.com/photo-1604917869287-3ae73c77e227?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZWVzeSUyMHBpenphfGVufDB8fDB8fHww" alt="BBQ Chicken" class="w-full h-40 object-cover rounded-md mb-4">
+      <h3 class="text-xl font-bold">Cheesy Supernova</h3>
+      <p class="text-gray-600 text-sm">Grilled chicken with tangy BBQ sauce and onions.</p>
+      <p class="text-[#EA384C] font-semibold mt-2">KES 1899</p>
+            <button class="mt-auto bg-[#F97316]  text-white px-4 py-2 rounded-md hover:bg-[#c62f3e] transition duration-300 mt-4">
+        Add to Order
+      </button>
+    </div>
+    
+        
+    </div>
+   </section>
+
+<section id="contact" class="bg-white py-12 px-4">
+  <h2 class="text-4xl font-bold text-center text-[#EA384C] mb-8">Contact Us</h2>
+
+  <div class="max-w-3xl mx-auto bg-gray-100 p-8 rounded-lg shadow-md">
+    <form action="#" method="POST" class="space-y-6">
+      
+
+      <div>
+        <label for="name" class="block text-sm font-semibold text-gray-700">Name</label>
+        <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#EA384C]">
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm font-semibold text-gray-700">Email</label>
+        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#EA384C]">
+      </div>
+
+      <div>
+        <label for="message" class="block text-sm font-semibold text-gray-700">Message</label>
+        <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#EA384C]"></textarea>
+      </div>
+
+      <button type="submit" class="w-full bg-[#EA384C] text-white py-2 px-4 rounded-md hover:bg-[#c62f3e] transition duration-300">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-6">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    
+    <!-- Left side: Brand -->
+    <p class="text-lg font-semibold">
+      <span class="text-[#EA384C]">Pizza</span><span class="text-[#FEF7CD]">Planet</span>
+    </p>
+
+    <!-- Center: Links -->
+    <div class="space-x-4 mt-4 md:mt-0">
+      <a href="#home" class="hover:underline">Home</a>
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#menu" class="hover:underline">Menu</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </div>
+
+    <!-- Right side: Copyright -->
+    <p class="mt-4 md:mt-0 text-sm text-gray-400">&copy; 2025 Pizza Planet. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+    
+</body>
+</html>
